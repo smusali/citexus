@@ -73,7 +73,7 @@ def process_multiple_pdfs(pdf_paths):
 # Example usage
 if __name__ == "__main__":
     # List of PDF file paths
-    pdf_files = ["paper1.pdf", "paper2.pdf", "paper3.pdf"]
+    pdf_files = ["papers/1.pdf"]
 
     # Process the PDFs and get the extracted information
     json_results = process_multiple_pdfs(pdf_files)
